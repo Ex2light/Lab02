@@ -1,7 +1,7 @@
 import abc
 
 
-class AbstractCalculator():
+class AbstractCalculator( _metaclass_=abc.ABCMeta):
     def Add(selfself, first, second, type):
         pass
 
